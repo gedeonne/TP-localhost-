@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav_logo{
+    gap: 1rem;
+}
+  
+  .nav_logo a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .nav_logo a span{
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+ 
+  }
+  
+  .nav_links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .link a{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .link a:hover{
+    color: blue;
+  }
+
+  .link-first a{
+    font-weight: 700;
+  }
+
+  .items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 70px;
+    min-height: 100vh;
+  }
+  .item1 {
+    position: relative;
+	flex-basis: 50%;
+	max-width: 700px;
+	z-index: 2;
+  }
+
+  .item1 h1{
+    font-size: 55px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	margin-bottom: 10px
+  }
+
+  .item1 p{
+	line-height: 1.4;
+	margin-bottom: 50px;
+  }
+
+  .item1 a{
+   border: 1px solid blue;
+   border-radius: 20px;
+   color: white;
+   background-color: blue;
+   text-decoration: none;
+   padding: 20px;
+   margin: 10px; 
+  }
